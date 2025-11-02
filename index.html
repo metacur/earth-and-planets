@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>星サイズ比較ビジュアライザー</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>星のサイズ比較ビジュアライザー</h1>
+
+  <!-- カテゴリと星の選択UI -->
+  <div class="controls">
+    <label for="categorySelect">カテゴリ：</label>
+    <select id="categorySelect">
+      <option value="solar">太陽系惑星</option>
+      <option value="exoplanet">系外惑星</option>
+      <option value="star">恒星</option>
+    </select>
+
+    <label for="objectSelect">星を選択：</label>
+    <select id="objectSelect"></select>
+
+    <button id="addButton">追加して比較</button>
+    <button id="clearButton">すべてクリア</button>
+  </div>
+
+  <!-- 比較表示エリア（初期状態は空） -->
+  <div class="comparison" id="comparisonArea"></div>
+
+  <!-- SVGグラデーション定義 -->
+  <svg width="0" height="0">
+    <defs>
+      <radialGradient id="earthGradient" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#3a9bdc" />
+        <stop offset="100%" stop-color="#1e3f66" />
+      </radialGradient>
+      <radialGradient id="planetGradient" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#ffcc66" />
+        <stop offset="100%" stop-color="#cc6600" />
+      </radialGradient>
+      <radialGradient id="starGradient" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#ff6666" />
+        <stop offset="100%" stop-color="#660000" />
+      </radialGradient>
+    </defs>
+  </svg>
+
+  <!-- スクリプト読み込み順に注意 -->
+<script src="stars.js"></script>
+<script src="animation.js"></script>
+<script src="planet.js"></script>
+<script src="ui.js"></script>
+
+</body>
+</html>
