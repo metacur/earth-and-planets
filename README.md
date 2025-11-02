@@ -4,6 +4,7 @@
 
 - 地球を基準にして太陽系惑星・系外惑星・恒星のサイズと質量を視覚的に比較できます。
 - 星はアニメーション付きで表示され、カテゴリごとに色分けされます。
+- 図は星サイズの大小の相対性を示すものであり、直径を正確に描画するものではありません。
 
 ### 特徴
 - 地球との相対サイズと質量を表示（倍率付き）
@@ -26,7 +27,8 @@ index.html style.css stars.js planet.js ui.js animation.js
 
 ## Overview
 
-This is a visualizer that compares the size and mass of planets and stars relative to Earth. Each celestial body is animated and color-coded by category.
+This is a visualizer that compares the size and mass of planets and stars relative to Earth. Each celestial body is animated and color-coded by category. 
+This is a relative representation of the size, not an exact size.
 
 ### Features
 - Displays diameter and mass relative to Earth
