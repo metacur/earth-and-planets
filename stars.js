@@ -14,12 +14,17 @@ window.starData = {
   exoplanet: {
     "Kepler-22b": { diameter: 28000, mass: 2.4e25, distanceLy: 600 },
     "WASP-12b": { diameter: 180000, mass: 1.4e27, distanceLy: 1400 },
-    "HD 209458 b": { diameter: 143000, mass: 0.69e27, distanceLy: 150 }
+    "HD 209458 b": { diameter: 143000, mass: 0.69e27, distanceLy: 150 },
+    "Proxima Centauri b": { diameter: 11200, mass: 1.27e25, distanceLy: 4.24 },
+    "TRAPPIST-1e": { diameter: 9100, mass: 0.77e25, distanceLy: 39 },
+    "Kepler-452b": { diameter: 18000, mass: 5e25, distanceLy: 1400 }
   },
   star: {
     "太陽": { diameter: 1392000, mass: 1.989e30, distanceKm: 149600000 },
     "ベテルギウス": { diameter: 887000000, mass: 2.0e31, distanceLy: 642 },
     "Stephenson 2-18": { diameter: 2150000000, mass: 3.0e31, distanceLy: 19000 },
-    "リゲル": { diameter: 78900000, mass: 3.5e31, distanceLy: 860 }
+    "リゲル": { diameter: 78900000, mass: 3.5e31, distanceLy: 860 },
+    "Sirius A": { diameter: 2380000, mass: 4.02e30, distanceLy: 8.6 },
+    "Vega": { diameter: 2362000, mass: 2.1e30, distanceLy: 25 }
   }
 };
