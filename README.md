@@ -16,7 +16,6 @@
 ### ファイル構成
 index.html style.css stars.js planet.js ui.js animation.js
 
-コード
 
 ### 使用方法
 1. `index.html` をブラウザで開く
@@ -40,7 +39,6 @@ This is a relative representation of the size, not an exact size.
 ### File Structure
 index.html style.css stars.js planet.js ui.js animation.js
 
-コード
 
 ### How to Use
 1. Open `index.html` in your browser
